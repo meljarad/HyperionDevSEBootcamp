@@ -1,0 +1,15 @@
+#Note: all pseudocode items are indented relative to section title for purpose of legibility
+--
+# OPTIONAL TASK:
+	
+	Declare empty List
+	Declare number of iterations = 4
+
+	For element i in range 0 to 4:
+		Get ith number from user
+		Append ith number to List
+
+	Sort List in ascending order
+	Print List to user
+
+# This pseudocode is a little closer to regular code as it tries to make use of the efficiency of a for loop even whilst in pseudocode, so that the pseudocode can be used for any number of iterations N. If the number of iterations was much higher and the task required 400 numbers, we would have a much longer line of psuedocode to deal with.

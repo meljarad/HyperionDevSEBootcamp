@@ -1,0 +1,51 @@
+#Note: all pseudocode items are indented relative to section title for purpose of legibility
+--
+# SCENARIO 1: LARGEST USER-INPUTTED POSITIVE NUMBER
+
+	Declare variable as positive non-zero integer
+	Create an empty list called List
+
+	While integer is not zero:
+		If integer is positive:
+			Append integer to List
+			Prompt user to re-enter an integer #Overwrites integer value
+		If integer is negative:
+			Reject integer (do not append to List)
+			Prompt user to re-enter an integer #Overwrites integer value
+
+	Sort List in descending order
+	Print first value of List
+
+#Note: that this example specifically asks for positive integers, hence my pseudocode includes a step for validating against negative integers. A more robust program would extend this principle to validate against entry of strings or other invalid entries. It also makes use of a single variable for storing integers for the sake of efficiency.
+
+---
+# SCENARIO 2: CALCULATING ARITHMETIC AVERGAGE OF LIST OF NUMBERS
+
+	Get a list of numbers
+	Declare a new variable equal to the sum of all numbers in list divided by the number of items in the list
+	Print the value of the new variable
+
+#Note: in  line 24, "get a list of numbers" implies importing a list of pre-defined numbers into an empty list to be declared. There are many ways to do this including employing the use of loops, so I have kept this psuedocode intentionally short as it applies to all methods.
+
+---
+# SCENARIO 3: PRINTING ALPHABETICAL SORT OF GROCERY LIST
+
+	Create an empty list called Grocery List
+	Append all grocery list items to Grocery List
+	Sort Grocery List in alphabetical order
+	Sort grocery list items in alphabetical order
+	Print Grocery List
+
+#Note: in the line 34, "append all grocery list items to Grocery List" implies importing a list of pre-defined strings into an empty list to be declared. There are many ways to do this including employing the use of loops, so I have kept this psuedocode intentionally short as it applies to all methods.
+
+---
+# SCENARIO 4: FLOWCHART ALGORITHM
+
+	Get variable X from user as float
+	Get variable Y from user as float
+
+	Declare new variable S equal to sum of X and Y
+	Declare new variable A equal to S divided by 2
+	Declare new variable P equal to product of X and Y
+
+	Print concatenated list of variables S, A, P separated by commas
