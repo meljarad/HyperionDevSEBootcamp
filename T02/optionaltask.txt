@@ -1,0 +1,30 @@
+#Note: all pseudocode items are indented relative to section title for purpose of legibility
+--
+# OPTIONAL TASK: FIBONACCI SEQUENCE:
+
+	Request the user to input a non-negative integer
+
+	If "n" is non-numerical:
+		Reprompt the user to input an integer
+	If "n" is numerical:
+		Store the user input in the integer variable "n"
+
+	Declare a new empty list called "fib" 
+	Declare an integer variable called "a" where "a" = 0
+	Declare an integer variable called "b" where "b" = 1
+
+	If "n" = 0:
+		Append "a" to list "fib"
+		Print a concatenation of the string "The Fibonacci sequence is " and the list "fib"
+	If "n" = 1:
+		Append "a" to list "fib"
+		Append "b" to list "fib"
+		Print a concatenation of the string "The Fibonacci sequence is " and the list "fib"
+	If "n" >= 2:
+		Append "a" to list "fib"
+		Append "b" to list "fib"
+
+		For element i in range 2 to n:
+			Append "c" to list "fib" where c is the difference between the (i-1)th and (i-2)th index values of list "vib"
+
+	Print the list "fib" to the user

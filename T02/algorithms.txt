@@ -1,0 +1,26 @@
+#Note: all pseudocode items are indented relative to section title for purpose of legibility
+--
+# ALGORITHM 1: HELLO WORLD
+
+	Request the user to input their first name
+	Store the user input in a string variable called "first_name"
+
+	Print out the value of the string variable "first_name"
+	Print out the string "Hello, world"
+
+--
+# ALGORITHM 2: AGE
+
+	Request the user to input their age
+	
+	If the user input is non-numerical:
+		Reprompt the user to input an integer
+	If the user input is numerical:
+		Store the user input in an integer variable called "Age"
+
+	If "age" is equal to or greater than 18:
+		Print the string "You're old enough"
+	Else if "age" is equal to or greater than 16 but less than 18:
+		Print the string "Almost there"
+	Else:
+		Print the string "You're just too young"
