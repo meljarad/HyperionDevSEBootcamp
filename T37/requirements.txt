@@ -1,0 +1,12 @@
+#!/bin/bash - specifies the interpreter that should be used to execute the script.
+
+# This script installs the project requirements for the T37 - GARDEN.PY code
+
+# Create a new conda environment and install the spacy and tabulate packages
+conda create -n myenv spacy tabulate
+
+# Activate the environment
+conda activate myenv
+
+# Download and install the English language model for the spacy library
+python -m spacy download en_core_web_sm
